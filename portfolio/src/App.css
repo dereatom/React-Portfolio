@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+:root{
+  --Primary-white: #fff;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color:blue;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +44,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* ****************** Navbar*********** */
+
+
+/* ***********Links********** */
+nav a.nav.link{
+  letter-spacing:0.6px;
+  color: white !important;
+}
+.nabbar-nav >li >a{
+  color: white !important; 
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+
+
+}
+.nabbar-nav > li > a {
+  color: wheat;
 }
