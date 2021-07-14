@@ -1,0 +1,16 @@
+.home {
+  background: #b71775;
+}
+
+.home {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+.max-width {
+  display: flex;
+  padding: 40px;
+  justify-content: space-evenly;
+}
