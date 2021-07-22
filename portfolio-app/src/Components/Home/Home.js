@@ -1,7 +1,7 @@
 import React from 'react'
 import  "./Home.css"
 import Selfi from "../../image/Dereje3.jpg"
-import BinaryGlobe from "../../image/BinaryGlobe.JPEG"
+// import BinaryGlobe from "../../image/BinaryGlobe.JPEG"
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
                  <p>Pathology Tech</p>
             </div>
             <img className = "Selfi" src= {Selfi} alt = "Dereje selfi"></img>
-            <img className = "BinaryGlobe" src = {BinaryGlobe} alt="Binary Glob"></img>
+            {/* <img className = "BinaryGlobe" src = {BinaryGlobe} alt="Binary Glob"></img> */}
         </div>
     )
 }

@@ -1,17 +1,16 @@
 import React from 'react'
-import {FaGithub, FaTwitter, FaLinkedin  } from "react-icons/fa";
-// import FagitHub from "../../image/GitHub.png"
-// import FaLinkedIn from "../../image/LinkedIn.png"
-// import FaTwitter from "../../image/Twitter.png"
+import {FaGithub, FaTwitter, FaLinkedin, FaFacebook  } from "react-icons/fa";
+import "../Footer/Footer.css"
 const handleURL = (url) => {
     return () => window.open(url,  "_blank")
 }
 function Footer() {
     return (
-        <div>
+        <div className ="footer" id = "footer">
             <FaGithub color= 'white' size ='30px' style = {{padding: '1%'}} onClick ={handleURL('https://github.com/dereatom')}/>
             <FaLinkedin color= 'white' size ='30px' style = {{padding: '1%'}} onClick ={handleURL('https://www.linkedin.com/in/dereje-atomsa-ayele-3b58b2204/')}/>
             <FaTwitter color= 'white' size ='30px' style = {{padding: '1%'}} onClick ={handleURL('https://twitter.com/DereAtom')}/>
+            <FaFacebook color= 'white' size ='30px' style = {{padding: '1%'}} onClick ={handleURL('https://www.facebook.com/dereje.atomsa.7/')}/>
         </div>
     )
 }

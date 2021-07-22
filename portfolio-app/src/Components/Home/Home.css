@@ -3,7 +3,7 @@
     display: flex;
     height: 630px;
     padding-top: 85px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 h1  {
@@ -11,6 +11,7 @@ h1  {
 }
 .Selfi {
     border-radius: 50%;
+    height: 550px;
 }
 .BinaryGlobe {
     border-radius: 50%;

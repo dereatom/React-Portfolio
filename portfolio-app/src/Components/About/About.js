@@ -3,9 +3,9 @@ import "../About/About.css"
 import PageHeader from '../PageHeader/PageHeader'
 function About() {
     return (
-        <div className = "AboutMe">
+        <div className = "AboutMe" id = "#about-me">
             <div className = "wrap">
-                <PageHeader className ="Title" title= {"About Me"} />
+                <PageHeader className ="Title" title= {"About Me"}/>
                 <div className = "ContainerA">
                     <div className = "Text">
                         <p>I'm Dereje Ayele, Born and Grown Up in East Afarica, Ethiopia. Father of two cute boys. currently working at VCU Health System Microbiolgy Lab. Former student and worker of Jimma University and Mettu Health Center as Technical Assistance and Medical Lab Tech respectively. Graduated from Harmay University by Associate Degree, and From Jimma University BSc 2012. I moved To Richmond, VA, US by 2013. Now at school for Full Stack Developer at University of Richmond Coding boot camp.</p>

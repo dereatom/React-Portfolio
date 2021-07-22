@@ -4,8 +4,8 @@ import HandShake from "../../image/HandShake.png"
 import PageHeader from '../PageHeader/PageHeader'
 
 const Contact = (props) => (
-    <div id="contact">
-        <PageHeader title= {"Contact me"} />
+    <div id="Contact" id = "#contact">
+        <PageHeader title= {"Contact me"}/>
         <div className ="wrap"> 
             <div>
                 <img className ="hand" src = {HandShake} alt= "Hand Shake"/>

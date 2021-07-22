@@ -1,5 +1,5 @@
 import React from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import NavBar from "./Components/NavBar/NavBar";
@@ -17,16 +17,29 @@ import "../src/App.css"
 // import bootsrap from "react-bootstrap/dist/react-bootstrap"
 const App =() =>{
   return ( 
+  <Router>
     <div className = 'App' style={{backgroundImage: `url(${backgroundImage})`}}>
       <NavBar/>
-      <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Resume/>
+      <Switch>
+        <Route exaxt path= "/">
+          <Home/>
+        </Route>
+        <Route exaxt path= "/about">
+          <About/>
+        </Route>
+        <Route exaxt path= "/projects">
+          <Projects/>
+        </Route>
+        <Route exaxt path= "/contact">
+          <Contact/>
+        </Route>
+        <Route exaxt path= "/resume">
+          <Resume/>
+        </Route>
+      </Switch>
       <Footer/>
     </div>
- 
+  </Router>
   );
 }
 
