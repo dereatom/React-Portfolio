@@ -23,8 +23,8 @@ const App =() =>{
       <About/>
       <Projects/>
       <Contact/>
-      <Footer/>
       <Resume/>
+      <Footer/>
     </div>
  
   );
