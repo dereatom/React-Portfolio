@@ -1,0 +1,26 @@
+.Home {
+    /* background-color: purple; */
+    display: flex;
+    height: 630px;
+    padding-top: 85px;
+    justify-content: space-between;
+
+}
+h1  {
+    margin: 0;
+}
+.Selfi {
+    border-radius: 50%;
+}
+.BinaryGlobe {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.Container{
+    padding: 100px;
+    color: seashell;
+
+}
+

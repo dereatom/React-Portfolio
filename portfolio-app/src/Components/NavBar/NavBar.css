@@ -1,0 +1,32 @@
+ul {
+    background-color: #181818;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+a {
+    text-decoration: none;
+    color: wheat;
+}
+a:hover {
+    border-bottom: 4px solid #8c1cd1;
+
+}

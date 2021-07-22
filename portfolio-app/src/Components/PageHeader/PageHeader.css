@@ -1,0 +1,15 @@
+.ContainerP {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+
+    
+}
+hr {
+    position:absolute;
+    left: 0;
+    width: 44px;
+    border: 1px solid #8C1CD1;
+}

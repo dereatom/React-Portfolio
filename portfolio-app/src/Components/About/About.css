@@ -1,0 +1,11 @@
+.AboutMe {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: #d40505c2;
+}
+.ContainerA {
+    display: flex;
+}
+
