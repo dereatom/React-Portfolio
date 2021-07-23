@@ -1,27 +1,32 @@
 .card-body {
     display: inline-block;
     width: 400px;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+
 }
 
 img {
     width: 400px;
     margin-left: 20px;
+    height: 300px;
+
 }
 h1 {
     font-size: 20px !important;
     margin-left: 60px;
-    color: blue;
+    color: red;
 }
 
 p{
     font-size: 13px !important;
     margin-left: 25px;
-    color: blue;
+    color: white;
 }
 .link {
     margin-left: 100px; 
+
 }
 .card-git {
     margin-left: 30px;

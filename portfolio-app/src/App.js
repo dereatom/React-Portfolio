@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./Components/About/About";
+// import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import NavBar from "./Components/NavBar/NavBar";
 import Projects from "./Components/Projects/Projects"
-import Resume from "./Components/Resume/Resume";
+import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 // // import Header from "./components/Header";
@@ -21,21 +21,22 @@ const App =() =>{
     <div className = 'App' style={{backgroundImage: `url(${backgroundImage})`}}>
       <NavBar/>
       <Switch>
-        <Route exaxt path = "/">
+        <Route exact path = "/">
           <Home/>
         </Route>
-        <Route exaxt path = "/about">
+        <Route exact path = "/about-me">
           <About/>
         </Route>
-        <Route exaxt path = "/projects">
+        {/* <Route exact path = "/about">
+          <About/>
+        </Route> */}
+        <Route exact path = "/projects">
           <Projects/>
         </Route>
-        <Route exaxt path = "/contact">
+        <Route exact path = "/contact">
           <Contact/>
         </Route>
-        <Route exaxt path = "/resume">
-          <Resume/>
-        </Route>
+       
       </Switch>
       <Footer/>
     </div>

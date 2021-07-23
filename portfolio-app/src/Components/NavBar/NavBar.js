@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from "../NavBar/NavBar.css"
-import {BrowserRouter as Router, Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 function NavBar() {
     return (
-        <Router>
+        
             <div className= {classes.NavBar}>
               <nav className="NavBar">
                 <ul>
@@ -13,12 +13,13 @@ function NavBar() {
                     <li>
                         <Link to ="/about-me">About Me</Link>
                     </li>
+                    {/* <li>
+                        <Link to ="/">About Me</Link>
+                    </li> */}
                     <li>
                         <Link to ="/projects">Projects</Link>
                     </li>
-                    <li>
-                        <Link to ="/resume">Resume</Link>
-                    </li>
+                    
                     <li>
                         <Link to = "/contact">Contact</Link>
                     </li>
@@ -28,7 +29,7 @@ function NavBar() {
                 </ul>
             </nav>
           </div>
-     </Router>
+  
     )
 }
 

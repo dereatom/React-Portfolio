@@ -24,8 +24,8 @@ const Contact = (props) => (
                     <textarea name="message" id="message" rows="6"></textarea>
                 </div>
                 <ul className="actions">
-                    <li><input type="submit" value="Send Message" className="special" />Send</li>
-                    <li><input type="reset" value="Clear" />Clear</li>
+                    <li><input type="submit" value="Send Message" className="special" /></li>
+                    <li><input type="reset" value="Clear" /></li>
                 </ul>
             </form>
         </div> 
