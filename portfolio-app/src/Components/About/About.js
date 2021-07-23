@@ -3,7 +3,7 @@ import "../About/About.css"
 import PageHeader from '../PageHeader/PageHeader'
 function About() {
     return (
-        <div className = "AboutMe" id = "#about-me">
+        <div className = "AboutMe" id = "about-me">
             <div className = "wrap">
                 <PageHeader className ="Title" title= {"About Me"}/>
                 <div className = "ContainerA">

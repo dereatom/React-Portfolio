@@ -1,19 +1,34 @@
 import React from 'react';
 import classes from "../NavBar/NavBar.css"
+import {BrowserRouter as Router, Link} from "react-router-dom"
 function NavBar() {
     return (
-        <div className= {classes.NavBar}>
-           <nav className="NavBar">
-               <ul>
-                   <li><a href ="/">Home</a></li>
-                   <li><a href ="/#about-me">About Me</a></li>
-                   <li><a href ="/#projects">Projects</a></li>
-                   <li><a href ="/#resume">Resume</a></li>
-                   <li><a href ="/#contact">Contact</a></li>
-                   <li><a href = "/#footer"></a></li>
-               </ul>
-           </nav>
-        </div>
+        <Router>
+            <div className= {classes.NavBar}>
+              <nav className="NavBar">
+                <ul>
+                    <li>
+                        <Link to ="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to ="/about-me">About Me</Link>
+                    </li>
+                    <li>
+                        <Link to ="/projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link to ="/resume">Resume</Link>
+                    </li>
+                    <li>
+                        <Link to = "/contact">Contact</Link>
+                    </li>
+                    <li>
+                        <Link to = "/footer"></Link>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+     </Router>
     )
 }
 

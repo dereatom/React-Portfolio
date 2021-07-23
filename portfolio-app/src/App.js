@@ -21,19 +21,19 @@ const App =() =>{
     <div className = 'App' style={{backgroundImage: `url(${backgroundImage})`}}>
       <NavBar/>
       <Switch>
-        <Route exaxt path= "/">
+        <Route exaxt path = "/">
           <Home/>
         </Route>
-        <Route exaxt path= "/about">
+        <Route exaxt path = "/about">
           <About/>
         </Route>
-        <Route exaxt path= "/projects">
+        <Route exaxt path = "/projects">
           <Projects/>
         </Route>
-        <Route exaxt path= "/contact">
+        <Route exaxt path = "/contact">
           <Contact/>
         </Route>
-        <Route exaxt path= "/resume">
+        <Route exaxt path = "/resume">
           <Resume/>
         </Route>
       </Switch>

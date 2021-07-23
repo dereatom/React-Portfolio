@@ -12,7 +12,7 @@ const mystyle = {
 function Resume() {
     return (
     <div>
-        <div className="resume" id ="Resume">
+        <div className="resume" id ="resume">
         <PageHeader title= {"My Resume"} id = "Resume" />
           <h2 className="resume-link" style={{mystyle}}>  <a className="resume-link2" href='https://docs.google.com/document/d/1BXPOifL64DtICmt1H3of6APTad30pTHWIlFAwMLyk9g/edit'>Link to Resume</a> </h2>
 

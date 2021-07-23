@@ -9,7 +9,7 @@ import BudgetTracker from "../../image/Budget_Tracher.png"
 import WorkoutTracker from "../../image/WorkoutTracker.jpg"
 function Projects() {
     return (
-        <div className= "Projects" id = "#projects">
+        <div className= "Projects" id = "projects">
             <PageHeader title= {"My Recent works"}/>
             <div className= "card-body">
                 <img src={EscapeArray} alt="Escape Array"/>

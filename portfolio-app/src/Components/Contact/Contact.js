@@ -4,7 +4,7 @@ import HandShake from "../../image/HandShake.png"
 import PageHeader from '../PageHeader/PageHeader'
 
 const Contact = (props) => (
-    <div id="Contact" id = "#contact">
+    <div className="Contact" id = "contact">
         <PageHeader title= {"Contact me"}/>
         <div className ="wrap"> 
             <div>
