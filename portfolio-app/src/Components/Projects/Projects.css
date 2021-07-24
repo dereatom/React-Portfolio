@@ -2,7 +2,6 @@
     display: inline-block;
     width: 400px;
     margin-left: 20px;
-    margin-top: 40px;
     margin-bottom: 20px;
     position: relative;
 }
@@ -24,14 +23,22 @@ p{
     margin-left: 25px;
     color: white;
 }
-#budget {
-    margin-bottom: 40px; 
-}
 .link {
-    margin-left: 100px; 
-
+    margin-left: 100px;
+    background-color: teal; 
+    margin-right: 60px;
+   
 }
 .card-git {
     margin-left: 30px;
     border-left: 20px;
+    
+}
+H5 {
+    
+    margin-left: 500px;
+    font-family: fantasy;
+    font-size: 25px !important;
+    margin-bottom: 20px;
+    color: red;
 }
