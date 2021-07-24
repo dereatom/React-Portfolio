@@ -5,7 +5,7 @@
     margin-top: 100px;
 }
 .hand {
-    margin-right: 80px;
+    /* margin-right: 80px; */
     
 }
 .Contact {
@@ -19,16 +19,22 @@
     width: 200px;
     height: 40px; 
     margin-left: 200px; 
-    
-
 }
 .field{
-    width: 400px;
+    width: 800px;
 }
 #message {
     width: 500px;
     margin-left: 60px;
     display: flex;
-    height: 80px;
+    height: 90px;
     
+}
+#name {
+    margin-left: 20px;
+    width: 400px;
+}
+#email {
+    margin-left: 20px;
+    width: 400px;
 }

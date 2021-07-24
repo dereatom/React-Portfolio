@@ -13,11 +13,11 @@ const Contact = (props) => (
                 <img className ="hand" src = {HandShake} alt= "Hand Shake"/>
             </div>
             <form method="post" action="#Summit">
-                <div className="field half first">
+                <div className="field-half">
                     <label htmlFor="name">Name</label>
                     <input type="text" name="name" id="name" />
                 </div>
-                <div className="field half">
+                <div className="field-half">
                     <label htmlFor="email">Email</label>
                     <input type="text" name="email" id="email" />
                 </div>
