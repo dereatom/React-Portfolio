@@ -27,9 +27,6 @@ const App =() =>{
         <Route exact path = "/about-me">
           <About/>
         </Route>
-        {/* <Route exact path = "/about">
-          <About/>
-        </Route> */}
         <Route exact path = "/projects">
           <Projects/>
         </Route>

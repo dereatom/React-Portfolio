@@ -6,3 +6,16 @@
     padding-top: 20px;
     border-radius: 20%;
 }
+h4 {
+    display: flex;
+    padding-left: 20px;
+    color: tomato;
+}
+p {
+    font-size: 20px !important;
+    font-family: 'Times New Roman';
+    color:#ffff00cc;
+}
+.Skills {
+    padding-bottom: 60px;
+}

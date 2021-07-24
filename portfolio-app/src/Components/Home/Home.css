@@ -1,13 +1,13 @@
 .Home {
-    /* background-color: purple; */
+    
     display: flex;
     height: 630px;
     padding-top: 85px;
-    /* justify-content: space-between; */
-
+    padding-left: 100px;
 }
 h1  {
-    margin: 0;
+   font-size: 35px;
+
 }
 .Selfi {
     border-radius: 50%;
@@ -23,5 +23,9 @@ h1  {
     padding: 100px;
     color: seashell;
 
+}
+.Hello {
+    padding-right: 20px;
+    align-content: flex-start;
 }
 

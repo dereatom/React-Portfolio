@@ -14,7 +14,7 @@ function Projects() {
             <div className= "card-body">
                 <img src={EscapeArray} alt="Escape Array"/>
                 <h1>Escap Array(TRIPLY)</h1>
-                <p>TRIPLY is a post pandemic travel guide for those who want to escape on a budget, featuring smaller US cities with lower costs of living. It’s simplified the trip planning experience to the essentials; where to eat and what to do</p>
+                <p>TRIPLY is a post pandemic travel guide for those who want to escape on a budget, featuring smaller US cities with lower costs of living.</p>
                 <p>Technologies: express-handlebars, MySQL2, Sequelize, dotenv package, bcrypt package,express-session, connect-session-sequelize</p>
        
                 <div className = "link">
@@ -22,10 +22,10 @@ function Projects() {
                     <a href="https://github.com/GitOffMyFarm/Escape-Array" className="card-git">GitHub</a>
                 </div>
         </div>
-        <div className= "card-body">
+        <div className= "card-body" id= "budget">
                 <img src={BudgetTracker} alt="Budget Trackers"/>
                 <h1>Budget Trackers</h1>
-                <p>This app is able us to track our withdrawals and deposits with or without a data/internet connection, So that our account balance is accurate when we are traveling, internet connection interruption or slow connection.</p>
+                <p>This app is able us to track our withdrawals and deposits with or without a data/internet connection, So that our account balance is accurate when we are traveling, internet connection interruption or slow connection. Balance offline saved and show up on account</p>
                 <p>Techinolgies: MongoDB Atlas, mongod, indexDB, cach, and heroku for deploy.</p>
        
                 <div className = "link">
