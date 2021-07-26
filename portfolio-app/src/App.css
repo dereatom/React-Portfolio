@@ -10,3 +10,68 @@ p {
     font-weight: 500;
     font-size: 40px;
 }
+.App-img {
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+    ul {
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+
+@media  screen and (width: 1000px) {
+    .Projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}
+@media  screen and (max-width: 1000px) {
+    ul {
+        display:flex ;
+        flex-wrap: wrap;
+    }
+}
+@media  screen and (max-width: 1000px) {
+    .Home {
+        display: inline-block;
+        height: fit-content;
+        width: fit-content;
+        padding-left: 0px;
+       
+    }
+}
+@media  screen and (max-width: 1000px) {
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: fit-content;
+     
+    }
+}
+.Contact {
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 20px;
+}
+@media  screen and (max-width: 1000px) {
+    h6{
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding-left: 100px;
+     
+    }
+}
+@media  screen and (max-width: 1000px) {
+    .wrap-contact{
+        display:flex ;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+}

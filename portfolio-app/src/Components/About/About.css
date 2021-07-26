@@ -1,6 +1,8 @@
 .about-me{
     height: 580px;
-    padding-top: 40px;
+    padding-top: 80px;
+    border-left: 20px;
+    
 }
 .skills-img {
     padding-top: 20px;
@@ -22,6 +24,15 @@ p {
 .card-git {
     background-color: teal; 
     border-radius: 5%;
-
-
+}
+.wrap-about {
+    display:flex;
+    justify-content: center;
+    height: fit-content;
+}
+@media screen and (width: 1000px) {
+    .about-me {
+        display:flex;
+        flex-direction: column,
+    }
 }

@@ -6,8 +6,9 @@ import PageHeader from '../PageHeader/PageHeader'
 const Contact = (props) => (
     <div className="Contact" id = "contact">
         <PageHeader title= {"Contact me"}/>
-        <h5>Contact me</h5>
-        <div className ="wrap"> 
+        <h6>My Name: Dereje Ayele</h6>
+        <h6>My Email: derejeatomsa2@gmail.com</h6>
+        <div className ="wrap-contact"> 
       
             <div>
                 <img className ="hand" src = {HandShake} alt= "Hand Shake"/>

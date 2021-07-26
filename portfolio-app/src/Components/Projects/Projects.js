@@ -11,7 +11,6 @@ function Projects() {
     return (
         <div className= "Projects" id = "projects">
             <PageHeader title= {"My Recent works"}/>
-             <h5>My Recent Works</h5>
             <div className= "card-body">
                 <img src={EscapeArray} alt="Escape Array"/>
                 <h1>Escap Array(TRIPLY)</h1>

@@ -24,6 +24,9 @@ function NavBar() {
                             <Link to = "/footer"></Link>
                         </li>
                     </ul>
+                    <button className ="hamberger" id ="hamberger">
+                        <i className ="fa fa-bars" ></i>
+                    </button>
             </nav>
           </div>
   

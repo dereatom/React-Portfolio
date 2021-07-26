@@ -18,7 +18,7 @@ import "../src/App.css"
 const App =() =>{
   return ( 
   <Router>
-    <div className = 'App' style={{backgroundImage: `url(${backgroundImage})`}}>
+    <div className = 'App-img' style={{backgroundImage: `url(${backgroundImage})`}}>
       <NavBar/>
       <Switch>
         <Route exact path = "/">
