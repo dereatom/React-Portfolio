@@ -7,6 +7,7 @@ const handleURL = (url) => {
 function Footer() {
     return (
         <div className ="footer" id = "footer">
+            <p>Visit me on social media:</p>
             <FaGithub color= 'white' size ='30px' style = {{padding: '1%'}} onClick ={handleURL('https://github.com/dereatom')}/>
             <FaLinkedin color= 'white' size ='30px' style = {{padding: '1%'}} onClick ={handleURL('https://www.linkedin.com/in/dereje-atomsa-ayele-3b58b2204/')}/>
             <FaTwitter color= 'white' size ='30px' style = {{padding: '1%'}} onClick ={handleURL('https://twitter.com/DereAtom')}/>

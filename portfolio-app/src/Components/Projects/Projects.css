@@ -43,5 +43,7 @@ H5 {
     color: red;
 }
 .Projects {
-    margin-top: 40px !important;
+    margin-top: 5px !important;
+    width: fit-content;
+    padding-top: 60px;
 }

@@ -1,4 +1,4 @@
-.about-me{
+#about-me{
     height: 580px;
     padding-top: 80px;
     border-left: 20px;
@@ -11,7 +11,8 @@
 h4 {
     display: flex;
     padding-left: 20px;
-    color: tomato;
+    color: rgb(197, 38, 10);
+    font-size: 20px;
 }
 p {
     font-size: 20px !important;
@@ -25,14 +26,10 @@ p {
     background-color: teal; 
     border-radius: 5%;
 }
-.wrap-about {
-    display:flex;
-    justify-content: center;
+.wrap-contents {
+    display:block;
+    justify-content: center; 
     height: fit-content;
 }
-@media screen and (width: 1000px) {
-    .about-me {
-        display:flex;
-        flex-direction: column,
-    }
-}
+
+

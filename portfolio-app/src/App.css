@@ -12,6 +12,7 @@ p {
 }
 .App-img {
     width: 100%;
+    height: max-content;
 }
 @media screen and (max-width: 1000px) {
     ul {
@@ -33,30 +34,22 @@ p {
     ul {
         display:flex ;
         flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 @media  screen and (max-width: 1000px) {
     .Home {
         display: inline-block;
         height: fit-content;
-        width: fit-content;
-        padding-left: 0px;
-       
+        width: fit-content; 
     }
 }
 @media  screen and (max-width: 1000px) {
-    .wrap{
-        display: flex;
-        flex-wrap: wrap;
-        height: fit-content;
-        width: fit-content;
-     
+        .Contact {
+            height: fit-content;
+            width: fit-content;
+            padding-bottom: 20px;
     }
-}
-.Contact {
-    height: fit-content;
-    width: 100%;
-    padding-bottom: 20px;
 }
 @media  screen and (max-width: 1000px) {
     h6{
@@ -73,5 +66,20 @@ p {
         margin-left: 10px;
         width: fit-content;
         height: fit-content;
+    }
+}
+@media  screen and (max-width: 1000px) {
+    #about-me {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+}
+@media  screen and (max-width: 1000px) {
+    .skills-img {
+
+        padding-right: 100px;
+        border-left: 0 !important;
     }
 }
