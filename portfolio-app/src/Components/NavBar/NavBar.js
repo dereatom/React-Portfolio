@@ -6,6 +6,7 @@ function NavBar() {
         
             <div className= {classes.NavBar}>
               <nav className="NavBar">
+                  
                     <ul>
                         <li>
                             <Link to ="/">Home</Link>
@@ -14,11 +15,13 @@ function NavBar() {
                             <Link to ="/about-me">About Me</Link>
                         </li>
                         <li>
-                            <Link to ="/projects">Projects</Link>
+                            <Link to ="/projects">Portfolio</Link>
                         </li>
-                        
                         <li>
                             <Link to = "/contact">Contact</Link>
+                        </li>
+                        <li>
+                            <Link to = "/resume">Resume</Link>
                         </li>
                         <li>
                             <Link to = "/footer"></Link>

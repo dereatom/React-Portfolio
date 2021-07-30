@@ -1,6 +1,7 @@
 h1 {
     font-weight: 900;
     font-size:45px;
+    
 }
 H2 {
     font-weight: 700;
@@ -14,6 +15,12 @@ p {
     width: 100%;
     height: max-content;
 }
+@media  screen and (width: 1000px) {
+    .Selfi {
+       margin-left: 0;
+       
+    }
+}
 @media screen and (max-width: 1000px) {
     ul {
       display: flex;
@@ -24,8 +31,9 @@ p {
 
 @media  screen and (width: 1000px) {
     .Projects {
-        display: flex;
+        display: inline-block;
         flex-wrap: wrap;
+        margin-left: 100px;
     }
 
     
@@ -83,3 +91,4 @@ p {
         border-left: 0 !important;
     }
 }
+

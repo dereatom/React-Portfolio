@@ -1,0 +1,53 @@
+.resume {
+    height: 680px;
+    width: auto;
+    padding-top: 80px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.lang {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.wrap-resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+.resume-link {
+    display: flex;
+    align-items: center;
+
+}
+li {
+    font-size: 20px !important;
+    font-family: 'Times New Roman';
+    color:#ffff00cc;
+}
+
+h3{
+    color: rgb(122, 9, 9);
+}
+@media  screen and (max-width: 1000px) {
+    .wrap-resume {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: fit-content; 
+        margin-left: 0 !important; 
+        width: 100%;
+    }
+    }
+    @media  screen and (max-width: 1000px) {
+        .resume {
+            height: fit-content;  
+        }
+        }
