@@ -8,15 +8,8 @@ import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 import Resume from "./Components/Resume/Resume";
-
-// // import Header from "./components/Header";
-// // import { Button } from 'react-bootstrap'
 import "../src/App.css"
-// // import Card from 'react-bootstrap/Card'
-// // import { Container } from "react-bootstrap";
- import backgroundImage from "./image/background.jpg"
-// import Header from "./components/Header";
-// import bootsrap from "react-bootstrap/dist/react-bootstrap"
+import backgroundImage from "./image/background.jpg"
 const App =() =>{
   return ( 
   <Router>

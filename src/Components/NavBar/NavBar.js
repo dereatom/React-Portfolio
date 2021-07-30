@@ -23,7 +23,6 @@ function NavBar() {
                         <li>
                             <Link to = "/resume">Resume</Link>
                         </li>
-                        
                     </ul>
             </nav>
           </div>
