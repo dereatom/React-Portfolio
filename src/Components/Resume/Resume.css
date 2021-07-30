@@ -6,8 +6,10 @@
     justify-content: center;
     align-items: center;
     margin-left: 100px;
-
+    overflow: hidden;
+    -ms-overflow-style: none;
 }
+
 .lang {
     display: flex;
     flex-direction:column;
@@ -44,6 +46,7 @@ h3{
         height: fit-content; 
         margin-left: 0 !important; 
         width: 100%;
+        margin-top: 0px;
     }
     }
     @media  screen and (max-width: 1000px) {

@@ -3,18 +3,19 @@
     height: 630px;
     padding-top: 85px;
     padding-left: 150px;
+    overflow: hidden;
+    
 }
 h1  {
    font-size: 35px;
    display: flex;
    padding-left: -40px;
-
-
 }
+
 .Selfi {
     border-radius: 50%;
     height: 550px;
-    margin-left: 100px;
+    margin-right: 400px;
 }
 
 .Container{

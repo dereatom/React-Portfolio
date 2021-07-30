@@ -16,6 +16,12 @@ p {
     height: max-content;
 }
 @media  screen and (width: 1000px) {
+    .App-img {
+        width: 100%;
+        height: max-content;
+    }
+}
+@media  screen and (width: 1000px) {
     .Selfi {
        margin-left: 0;
        
@@ -49,7 +55,8 @@ p {
     .Home {
         display: inline-block;
         height: fit-content;
-        width: fit-content; 
+        width: fit-content;
+        padding-left: 0; 
     }
 }
 @media  screen and (max-width: 1000px) {
@@ -72,6 +79,8 @@ p {
         display:flex ;
         flex-wrap: wrap;
         margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
         width: fit-content;
         height: fit-content;
     }
