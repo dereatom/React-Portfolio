@@ -23,9 +23,7 @@ function NavBar() {
                         <li>
                             <Link to = "/resume">Resume</Link>
                         </li>
-                        <li>
-                            <Link to = "/footer"></Link>
-                        </li>
+                        
                     </ul>
             </nav>
           </div>
