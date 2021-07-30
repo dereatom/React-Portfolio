@@ -1,3 +1,53 @@
+# React Portfolio
+  
+  # Table of Content
+  1. [Title](#Title)
+  2. [Criteria](#Criteria)
+  3. [Description](#Description)
+  4. [Installation](#Installation)
+  5. [Usage](#Usage)
+  6. [Links](#Links)
+  7. [License](#License)
+  8. [Contribution](#Contribution)
+  9. [Tests](#Tests)
+  10. [Github](#Github)
+  11. [E-mail](#Email)  
+  
+  ## Acceptance Criteria
+  All acceptance criteria fully meet.
+  ## Description
+  This my react updated `Portfolio` with recent project and more recent works. It's featuring two of my projects and four deployed homeworks that linked with deployed app and github repo. It linked to my resume, background, and contact informatin with brief expriances.
+  
+  ## Installation
+  Dependency installation with `NPM` needed.
+  
+  ## Usage
+  Help my employer's to see my works.
+
+  ## Deployed Link and screenshots
+ [Deployed Link](https://dereatom.github.io/React-Portfolio/)
+
+![Capture1](https://user-images.githubusercontent.com/77940481/127658748-ac8c2ef8-62db-4454-90c5-e562783358cb.JPG) 
+![Capture1](https://user-images.githubusercontent.com/77940481/127658779-6f21aa67-1f17-4fd3-aee3-e46c4165595c.JPG) 
+![Capture2](https://user-images.githubusercontent.com/77940481/127658787-438a328c-c85e-4bca-9b7a-a7efd6f241f8.JPG) 
+![Capture3](https://user-images.githubusercontent.com/77940481/127658798-481f5be9-4879-4785-9b00-60e9bb7b92ce.JPG) 
+![Capture4](https://user-images.githubusercontent.com/77940481/127658808-e5da2c89-14f9-4f4d-9de1-23baf7229507.JPG)
+  
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Contribution
+  N/A
+  
+  ## Tests
+  `npm test`
+  
+  ## Github
+  https://github.com/dereatom
+  
+  ## E-mail
+  dereje@gmail.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,7 +56,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
