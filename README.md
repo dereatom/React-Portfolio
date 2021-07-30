@@ -28,7 +28,6 @@
  [Deployed Link](https://dereatom.github.io/React-Portfolio/)
 
 ![Capture1](https://user-images.githubusercontent.com/77940481/127658748-ac8c2ef8-62db-4454-90c5-e562783358cb.JPG) 
-![Capture1](https://user-images.githubusercontent.com/77940481/127658779-6f21aa67-1f17-4fd3-aee3-e46c4165595c.JPG) 
 ![Capture2](https://user-images.githubusercontent.com/77940481/127658787-438a328c-c85e-4bca-9b7a-a7efd6f241f8.JPG) 
 ![Capture3](https://user-images.githubusercontent.com/77940481/127658798-481f5be9-4879-4785-9b00-60e9bb7b92ce.JPG) 
 ![Capture4](https://user-images.githubusercontent.com/77940481/127658808-e5da2c89-14f9-4f4d-9de1-23baf7229507.JPG)
