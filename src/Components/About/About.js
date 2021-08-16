@@ -11,13 +11,13 @@ function About() {
              <PageHeader title= {"About Me"}/> 
               <img className ="skills-img" src ={SkillsImg} alt = "my skill img"/>
                 <div className = "Text">
-                    <p>I'm Dereje Ayele, Born and Grown Up in East Africa, Ethiopia. Father of two cute boys. Currently working at VCU Health System Microbiolgy Lab. Former <br></br>student and worker of Jimma University and Mettu Health Center as Technical Assistance and Medical Lab Tech respectively. Graduated from Harmaya <br></br> University by Associate Degree, and From Jimma University BSc 2012. I moved To Richmond, VA, US by 2013. Now at school for Full Stack Developer at University of Richmond Coding boot camp.</p>
+                    <p>I'm Dereje Ayele, Born and Grown Up in East Africa, Ethiopia. Father of two cute boys. Currently working at VCU Health System Microbiology Lab. Former <br></br>student and worker of Jimma University and Mettu Health Center as Technical Assistance and Medical Lab Tech respectively. Graduated from Harmaya <br></br> University by Associate Degree, and From Jimma University BSc 2012. I moved To Richmond, VA, US by 2013. Currently Graduated from University of Richmond Boot Camp by  Full Stack Developer.</p>
                 </div>
             </useMediaQuery>
             <useMediaQuery className = "Skills">
                <PageHeader title= {"Skills"}/>
                     <div className = "Text">
-                        <p>My languages: HTML, CSS, JavaScript, jQuary, Node.js, MySQL and React.js.Effectivelly used Dev Tools:Bootstrap, GitHub, Gitlab, Material Desig, &<br></br> VSCode. Speaks three languages: English, Amharic and Afaan Oromo. From my expriance of work: problem solving, Teamwork, Critical thinking, <br></br>Comunication and interpersonal skills as well as Medical Laboratory science skills.</p>
+                        <p>My languages: HTML, CSS, JavaScript, jQuary, Node.js, MySQL and React.js. Effectively used Dev Tools, Bootstrap, GitHub, Gitlab, Material Desig, &<br></br> VS Code. Speaks three languages: English, Amharic and Afaan Oromo. From my experience of work: problem solving, Teamwork, Critical thinking, <br></br>communication and interpersonal skills as well as Medical Laboratory science skills.</p>
                     </div>
             </useMediaQuery>
             

@@ -9,6 +9,7 @@ function Resume() {
             <PageHeader title= {"Resume"}/>
             <a href="https://drive.google.com/file/d/1vCW1L6jDihMVZTbBDVmTFR6C5ws7POyU/view?usp=sharing" className="card-git">Resume Link</a>
        </div>
+       <p>Full Resume PDF was attached in the link above but this are few Technolgies and deccumentation or library I effectively used until today.</p>
         <div className ="wrap-resume"> 
             <div className = "wrap-front">
                 

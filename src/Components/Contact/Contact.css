@@ -44,3 +44,7 @@ h6 {
     font-size: 15px;
     color: coral;
 }
+li {
+    text-decoration: none;
+    list-style: none;
+}
