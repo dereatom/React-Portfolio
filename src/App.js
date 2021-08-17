@@ -9,11 +9,12 @@ import Contact from "./Components/Contact/Contact";
 import Resume from "./Components/Resume/Resume";
 import "../src/App.css";
 import backgroundImage from "./image/background.jpg";
+import { HashRouter } from "react-router-dom";
 
 const App =() =>{
 
   return ( 
-  <Router>
+  <HashRouter>
     <div className = 'App-img' style={{backgroundImage: `url(${backgroundImage})`}}>
      
       <NavBar/>
@@ -38,7 +39,7 @@ const App =() =>{
       </Switch>
       <Footer/>
     </div>
-  </Router>
+  </HashRouter>
   );
 }
 

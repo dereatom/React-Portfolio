@@ -1,25 +1,25 @@
 import React from 'react';
 import  "./NavBar.css"
-// import {Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 import {Nav} from "react-bootstrap"
 function NavBar() {
     return (
         
      <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/">Home</Nav.Link>
+        <Link to = "/" >Home</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="about-me">About Me</Nav.Link>
+          <Link to = "/about-me" >About Me</Link>
         </Nav.Item>
         <Nav.Item>
-         <Nav.Link href="projects">Portfolio</Nav.Link>
+        <Link to = "/projects" >Portfolio</Link>
         </Nav.Item>
         <Nav.Item>
-         <Nav.Link href="resume">Resume</Nav.Link>
+        <Link to = "/resume" >Resume</Link>
         </Nav.Item>
         <Nav.Item>
-         <Nav.Link href="contact">Contact</Nav.Link>
+        <Link to = "/contact" >Contact</Link>
         </Nav.Item>
         
   </Nav>
