@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import NavBar from "./Components/NavBar/NavBar";
 import Portfolio from "./Components/Projects/Projects"
@@ -9,7 +9,7 @@ import Contact from "./Components/Contact/Contact";
 import Resume from "./Components/Resume/Resume";
 import "../src/App.css";
 import backgroundImage from "./image/background.jpg";
-import { HashRouter } from "react-router-dom";
+
 
 const App =() =>{
 

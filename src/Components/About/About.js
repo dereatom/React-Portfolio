@@ -17,7 +17,7 @@ function About() {
             <useMediaQuery className = "Skills">
                <PageHeader title= {"Skills"}/>
                     <div className = "Text">
-                        <p>My languages: HTML, CSS, JavaScript, jQuary, Node.js, MySQL and React.js. Effectively used Dev Tools, Bootstrap, GitHub, Gitlab, Material Desig, &<br></br> VS Code. Speaks three languages: English, Amharic and Afaan Oromo. From my experience of work: problem solving, Teamwork, Critical thinking, <br></br>communication and interpersonal skills as well as Medical Laboratory science skills.</p>
+                        <p>My languages: HTML, CSS, JavaScript, jQuery, Node.js, MySQL and React.js. Effectively used Dev Tools, Bootstrap, GitHub, Gitlab, Material Design, &<br></br> VS Code. Speaks three languages: English, Amharic and Afaan Oromo. From my experience of work: problem solving, Teamwork, Critical thinking, <br></br>communication and interpersonal skills as well as Medical Laboratory science skills.</p>
                     </div>
             </useMediaQuery>
             

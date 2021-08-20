@@ -6,6 +6,7 @@ function NavBar() {
     return (
         
      <Nav className="justify-content-center" activeKey="/home">
+      
         <Nav.Item>
         <Link to = "/" >Home</Link>
         </Nav.Item>

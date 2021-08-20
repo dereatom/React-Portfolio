@@ -26,3 +26,7 @@ a:hover {
     border-bottom: 3px solid #8c1cd1;
 
 }
+.myname {
+    font-style: oblique ;
+    font-size: 60px !important;
+}

@@ -18,7 +18,7 @@ function Resume() {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>jQuary</li>
+                    <li>jQuery</li>
                     <li>React</li>
                 </ul0>
             </div>
